@@ -1,0 +1,15 @@
+<!-- Netlist naming fix-up report --> 
+<netlist>
+	<blocks>
+		<block previous="out:c0" current="out_c0"/>
+		<block previous="out:c1" current="out_c1"/>
+		<block previous="out:c2" current="out_c2"/>
+		<block previous="out:c3" current="out_c3"/>
+		<block previous="out:c4" current="out_c4"/>
+		<block previous="new_$undef" current="new__undef"/>
+		<block previous="new_$abc$141$new_n13" current="new__abc_141_new_n13"/>
+	</blocks>
+	<nets>
+		<net previous="new_$abc$141$new_n13" current="new__abc_141_new_n13"/>
+	</nets>
+</netlist>

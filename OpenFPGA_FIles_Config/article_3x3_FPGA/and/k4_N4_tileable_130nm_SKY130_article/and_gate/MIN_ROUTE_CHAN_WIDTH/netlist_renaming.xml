@@ -1,0 +1,8 @@
+<!-- Netlist naming fix-up report --> 
+<netlist>
+	<blocks>
+		<block previous="out:y" current="out_y"/>
+	</blocks>
+	<nets>
+	</nets>
+</netlist>

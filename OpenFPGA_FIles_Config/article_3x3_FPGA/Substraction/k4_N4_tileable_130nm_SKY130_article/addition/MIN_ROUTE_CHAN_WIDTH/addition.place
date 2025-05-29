@@ -1,0 +1,19 @@
+Netlist_File: addition.net Netlist_ID: SHA256:c9c98f3814645b1849fb679239153143f3289aa24c204fc23476c4dfad451c57
+Array size: 5 x 5 logic blocks
+
+#block name	x	y	subblk	layer	block number
+#----------	--	--	------	-----	------------
+new_$abc$141$new_n13	2	2	0	0	#0
+c0		3	2	0	0	#1
+new_$undef	1	2	0	0	#2
+out:c2		1	0	0	0	#3
+out:c3		0	1	0	0	#4
+out:c0		3	0	0	0	#5
+out:c1		2	0	0	0	#6
+out:c4		0	2	0	0	#7
+a0		1	4	0	0	#8
+a1		2	4	0	0	#9
+a2		3	4	0	0	#10
+b0		4	3	0	0	#11
+b1		4	2	0	0	#12
+b2		4	1	0	0	#13

@@ -1,0 +1,5 @@
+vvp compiled_and_gate
+VCD info: dumpfile and_gate_formal.vcd opened for output.
+Simulation start
+Simulation Succeed
+0

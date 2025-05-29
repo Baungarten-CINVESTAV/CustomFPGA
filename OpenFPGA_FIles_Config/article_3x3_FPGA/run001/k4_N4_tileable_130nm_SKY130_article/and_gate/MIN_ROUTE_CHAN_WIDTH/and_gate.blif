@@ -1,0 +1,7 @@
+# Benchmark "and_gate" written by ABC on Thu Mar 20 11:24:10 2025
+.model and_gate
+.inputs a b 
+.outputs y 
+.names b a y
+11 1
+.end

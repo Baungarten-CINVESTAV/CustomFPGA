@@ -1,0 +1,34 @@
+Placement_File: or_gate.place Placement_ID: SHA256:bace588429f6fa8738f881af52278dcfe1faf105700fdd1af95bbfd357efdc1c
+Array size: 5 x 5 logic blocks.
+
+Routing:
+
+Net 0 (a)
+
+Node:	229	SOURCE (0,2,4)  Pad: 1  Switch: 0
+Node:	231	  OPIN (0,2,4)  Pad: 1  Switch: 2
+Node:	330	 CHANX (0,1,3) to (2,3)  Track: 3  Switch: 2
+Node:	414	 CHANY (0,1,3)  Track: 15  Switch: 2
+Node:	319	 CHANX (0,2,2)  Track: 16  Switch: 1
+Node:	195	  IPIN (0,2,3)  Pin: 2   clb.I[2] Switch: 0
+Node:	183	  SINK (0,2,3)  Class: 0  Switch: -1 Net_pin_index: 1
+
+
+Net 1 (b)
+
+Node:	233	SOURCE (0,3,4)  Pad: 1  Switch: 0
+Node:	235	  OPIN (0,3,4)  Pad: 1  Switch: 2
+Node:	332	 CHANX (0,1,3) to (3,3)  Track: 5  Switch: 1
+Node:	189	  IPIN (0,2,3)  Pin: 0   clb.I[0] Switch: 0
+Node:	183	  SINK (0,2,3)  Class: 0  Switch: -1 Net_pin_index: 1
+
+
+Net 2 (y)
+
+Node:	182	SOURCE (0,2,3)  Class: 4  Switch: 0
+Node:	186	  OPIN (0,2,3)  Pin: 13   clb.O[3] Switch: 2
+Node:	441	 CHANY (0,2,3)  Track: 0  Switch: 2
+Node:	338	 CHANX (0,1,3) to (2,3)  Track: 11  Switch: 2
+Node:	376	 CHANY (0,0,2) to (0,3)  Track: 7  Switch: 1
+Node:	157	  IPIN (0,0,3)  Pad: 0  Switch: 0
+Node:	155	  SINK (0,0,3)  Pad: 0  Switch: -1 Net_pin_index: 1

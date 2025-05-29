@@ -1,0 +1,48 @@
+{
+    "DESIGN_NAME": "sb_3__1_",
+    "DESIGN_IS_CORE": 0,
+    "VERILOG_FILES": [
+        "dir::../verilog/rtl/FPGA/lb/*.v",
+        "dir::../verilog/rtl/FPGA/sub_module/*.v",
+        "dir::../verilog/rtl/FPGA/routing/sb_3__1_.v"
+    ],
+    
+   "VDD_NETS": "vdd",
+   "GND_NETS":"vss",
+   
+    "RUN_LINTER":0,
+    "ROUTING_CORES":24,
+    "QUIT_ON_SYNTH_CHECKS":0,
+    "SYNTH_STRATEGY":"AREA 3",
+
+    "CLOCK_PERIOD": 25,
+    "CLOCK_PORT": "prog_clk",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 100 100",
+    "PL_TARGET_DENSITY": 0.90,
+    "RT_MAX_LAYER": "met4",
+    
+           "IO_SYNC": 0,
+    "RUN_CVC": 1,
+        "pdk::sky130*": {
+        "FP_CORE_UTIL": 45,
+        "RT_MAX_LAYER": "met4",
+        "scl::sky130_fd_sc_hd": {
+            "CLOCK_PERIOD": 25
+        },
+        "scl::sky130_fd_sc_hdll": {
+            "CLOCK_PERIOD": 10
+        },
+        "scl::sky130_fd_sc_hs": {
+            "CLOCK_PERIOD": 8
+        },
+        "scl::sky130_fd_sc_ls": {
+            "CLOCK_PERIOD": 10,
+            "SYNTH_MAX_FANOUT": 5
+        },
+        "scl::sky130_fd_sc_ms": {
+            "CLOCK_PERIOD": 10
+        }
+    }
+
+}

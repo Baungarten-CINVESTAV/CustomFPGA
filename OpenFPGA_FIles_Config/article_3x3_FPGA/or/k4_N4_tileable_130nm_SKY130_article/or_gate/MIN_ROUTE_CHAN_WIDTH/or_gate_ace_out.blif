@@ -1,0 +1,7 @@
+# Benchmark "or_gate" written by ABC on Sat May 24 13:58:35 2025
+.model or_gate
+.inputs a b
+.outputs y
+.names b a y
+00 0
+.end

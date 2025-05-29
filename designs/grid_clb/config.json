@@ -1,0 +1,25 @@
+{
+    "DESIGN_NAME": "grid_clb",
+    "FP_PDN_MULTILAYER": 0,
+    "VERILOG_FILES": [
+        "dir::../verilog/rtl/FPGA/lb/*.v",
+        "dir::../verilog/rtl/FPGA/sub_module/*.v"
+    ],
+    
+   "VDD_NETS": "vdd",
+   "GND_NETS":"vss",
+   
+    "ROUTING_CORES":24,
+    "QUIT_ON_SYNTH_CHECKS":0,
+    "SYNTH_STRATEGY":"DELAY 4",
+    "CLOCK_PERIOD": 30,
+    "CLOCK_PORT": "clk",
+    "CLOCK_NET":"prog_clk",
+    "FP_SIZING": "absolute",
+    "DIE_AREA": "0 0 170 170",
+    "PL_TARGET_DENSITY": 0.8,
+        "QUIT_ON_LINTER_ERRORS": 0,
+        "IO_SYNC": 0,
+    "RUN_CVC": 1
+
+}

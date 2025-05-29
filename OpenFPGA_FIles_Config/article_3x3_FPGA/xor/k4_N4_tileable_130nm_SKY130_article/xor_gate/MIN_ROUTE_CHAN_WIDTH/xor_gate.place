@@ -1,0 +1,9 @@
+Netlist_File: xor_gate.net Netlist_ID: SHA256:e6fb4216d3f147ac5e711f3eb9fd02b71a2547db9d044af3d888a4ebdecdb45f
+Array size: 5 x 5 logic blocks
+
+#block name	x	y	subblk	layer	block number
+#----------	--	--	------	-----	------------
+y		2	2	0	0	#0
+out:y		2	0	0	0	#1
+a		4	3	0	0	#2
+b		4	2	0	0	#3

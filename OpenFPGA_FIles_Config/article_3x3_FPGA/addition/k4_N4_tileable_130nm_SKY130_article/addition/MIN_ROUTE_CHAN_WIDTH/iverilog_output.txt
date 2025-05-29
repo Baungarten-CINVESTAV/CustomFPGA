@@ -1,0 +1,2 @@
+iverilog -o compiled_addition ./SRC/addition_include_netlists.v -s addition_autocheck_top_tb -I ./SRC
+0

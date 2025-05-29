@@ -1,0 +1,2 @@
+iverilog -o compiled_or_gate ./SRC/or_gate_include_netlists.v -s or_gate_autocheck_top_tb -I ./SRC
+0

@@ -1,0 +1,12 @@
+<bus_group>
+  <bus name="q[7:0]" big_endian="false">
+    <pin id="0" name="q_0_"/>
+    <pin id="1" name="q_1_"/>
+    <pin id="2" name="q_2_"/>
+    <pin id="3" name="q_3_"/>
+    <pin id="4" name="q_4_"/>
+    <pin id="5" name="q_5_"/>
+    <pin id="6" name="q_6_"/>
+    <pin id="7" name="q_7_"/>
+  </bus>
+</bus_group>

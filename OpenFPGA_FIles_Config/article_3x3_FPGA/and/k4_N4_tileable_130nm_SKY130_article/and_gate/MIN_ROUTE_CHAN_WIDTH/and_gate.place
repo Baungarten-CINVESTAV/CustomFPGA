@@ -1,0 +1,9 @@
+Netlist_File: and_gate.net Netlist_ID: SHA256:cb791cd3c1f663f03d1190fb4d641eac8f676518e58a9bcd196cc8a67dcedf7c
+Array size: 5 x 5 logic blocks
+
+#block name	x	y	subblk	layer	block number
+#----------	--	--	------	-----	------------
+y		1	3	0	0	#0
+out:y		3	0	0	0	#1
+a		1	4	0	0	#2
+b		2	4	0	0	#3

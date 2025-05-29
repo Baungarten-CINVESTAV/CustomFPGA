@@ -1,0 +1,9 @@
+<pin_constraints>
+  <!-- For a given .blif file, we want to assign 
+       - the reset signal to the gfpga_pad_GPIO_PAD[0] port of the FPGA fabric
+    -->
+  <set_io pin="gfpga_pad_GPIO_PAD[0]" net="a"/>
+  <set_io pin="gfpga_pad_GPIO_PAD[1]" net="b"/>
+  <set_io pin="gfpga_pad_GPIO_PAD[10]" net="y"/>
+
+</pin_constraints>

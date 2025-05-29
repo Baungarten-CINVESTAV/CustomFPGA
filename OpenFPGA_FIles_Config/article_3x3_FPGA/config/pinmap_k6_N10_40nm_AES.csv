@@ -1,0 +1,13 @@
+orientation,row,col,pin_num_in_cell,port_name,mapped_pin,GPIO_type,Associated Clock,Clock Edge
+TOP,,,,gfpga_pad_GPIO_PAD[0],pad_fpga_io[0],in,,
+TOP,,,,gfpga_pad_GPIO_PAD[1],pad_fpga_io[1],in,,
+TOP,,,,gfpga_pad_GPIO_PAD[2],pad_fpga_io[2],in,,
+RIGHT,,,,gfpga_pad_GPIO_PAD[3],pad_fpga_io[3],in,,
+RIGHT,,,,gfpga_pad_GPIO_PAD[4],pad_fpga_io[4],in,,
+RIGHT,,,,gfpga_pad_GPIO_PAD[5],pad_fpga_io[5],in,,
+BOTTOM,,,,gfpga_pad_GPIO_PAD[6],pad_fpga_io[6],out,,
+BOTTOM,,,,gfpga_pad_GPIO_PAD[7],pad_fpga_io[7],out,,
+BOTTOM,,,,gfpga_pad_GPIO_PAD[8],pad_fpga_io[8],out,,
+LEFT,,,,gfpga_pad_GPIO_PAD[9],pad_fpga_io[9],out,,
+LEFT,,,,gfpga_pad_GPIO_PAD[10],pad_fpga_io[10],out,,
+LEFT,,,,gfpga_pad_GPIO_PAD[11],pad_fpga_io[11],out,,

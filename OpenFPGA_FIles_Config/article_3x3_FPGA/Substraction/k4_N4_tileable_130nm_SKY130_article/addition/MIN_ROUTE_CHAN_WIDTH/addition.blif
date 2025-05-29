@@ -1,0 +1,32 @@
+# Benchmark "addition" written by ABC on Sat May 24 14:28:33 2025
+.model addition
+.inputs a0 a1 a2 b0 b1 b2 
+.outputs c0 c1 c2 c3 c4 
+.names new_$undef
+ 0
+.names b2 a2 new_$abc$141$new_n13 c3
+-01 1
+1-1 1
+10- 1
+.names a1 a0 b1 b0 new_$abc$141$new_n13
+-011 1
+0-1- 1
+00-1 1
+.names a0 b0 c0
+01 1
+10 1
+.names a0 b0 a1 b1 c1
+-001 1
+-010 1
+0100 1
+0111 1
+1-01 1
+1-10 1
+.names a2 b2 new_$abc$141$new_n13 c2
+001 1
+010 1
+100 1
+111 1
+.names new_$undef c4
+1 1
+.end
